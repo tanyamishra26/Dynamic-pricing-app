@@ -22,7 +22,7 @@ The Streamlit app simulates how modern ride-hailing platforms generate fare esti
 ## Live Demo
 
 **Deployed Application:**  
-[Dynamic-pricing-app – Streamlit App]()
+[Dynamic-pricing-app – Streamlit App](https://dynamicpricingapp.streamlit.app/)
 
 ---
 
