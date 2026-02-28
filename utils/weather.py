@@ -5,7 +5,7 @@ _weather_df = None
 def load_weather_data():
     global _weather_df
     if _weather_df is None:
-        df = pd.read_csv("weather.csv")
+        df = pd.read_csv("utils/weather.py")
         df["datetime"] = pd.to_datetime(df["time_stamp"], unit="s")
         df["hour"] = df["datetime"].dt.hour
         _weather_df = df
